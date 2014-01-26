@@ -1,0 +1,11 @@
+{
+    "name": "RejectionError",
+    "message": "ENOENT, readdir './promises'",
+    "cause": {
+        "stack": "Error: ENOENT, readdir './promises'",
+        "errno": -2,
+        "code": "ENOENT",
+        "path": "./promises"
+    },
+    "stack": "Error: ENOENT, readdir './promises'\nFrom previous event:\n    at /Users/kieve/Shoppa/promise-with-bluebird/promise/fileAnalyzer.js:23:19\n    at Array.map (native)\n    at analyze (/Users/kieve/Shoppa/promise-with-bluebird/promise/fileAnalyzer.js:22:39)\n    at Object.<anonymous> (/Users/kieve/Shoppa/promise-with-bluebird/index.js:19:1)\n    at Module._compile (module.js:449:26)\n    at Object.Module._extensions..js (module.js:467:10)\n    at Module.load (module.js:349:32)\n    at Function.Module._load (module.js:305:12)\n    at Function.Module.runMain (module.js:490:10)"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "promise-with-bluebird",
+  "version": "0.1.0",
+  "description": "Demo for promise presentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kieve Chua Kiem Fai <kievechua@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "~1.0.0",
+    "async": "~0.2.9",
+    "lodash": "~2.4.1",
+    "q": "~1.0.0"
+  }
+}
